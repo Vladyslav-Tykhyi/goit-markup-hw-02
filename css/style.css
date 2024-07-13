@@ -138,7 +138,7 @@ body {
   list-style-type: none;
 }
 
-.section-2 ul h3 {
+.second-section ul h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -146,7 +146,7 @@ body {
   color: #2e2f42;
 }
 
-.section-2 ul p {
+.second-section ul p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -168,7 +168,9 @@ body {
 .heros {
   background-color: #ffffff;
 }
-
+.third-section ul li {
+  background-color: #ffffff;
+}
 .third-section ul li h3 {
   font-weight: 500;
   font-size: 20px;
@@ -249,7 +251,7 @@ footer a {
   color: #f4f4fd;
 }
 
-.logo-3 {
+.span-logo {
   color: #f4f4fd;
   font-weight: 700;
   font-size: 18px;
