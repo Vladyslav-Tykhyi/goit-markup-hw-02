@@ -33,7 +33,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  color: #f4f4fd;
 }
 .logo-2 {
   font-family: "Raleway", sans-serif;
@@ -73,23 +72,6 @@ body {
   color: #404bbf;
   text-decoration: underline;
 }
-
-.portfolio:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #404bbf;
-}
-
-.contacts:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #404bbf;
-}
-
 .address {
   font-style: normal;
 }
@@ -158,15 +140,16 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-  border-radius: 4px;
-  padding: 16px 32px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
 
 .main-btn:hover {
+  background-color: #404bbf;
+}
+
+.main-btn:focus {
   background-color: #404bbf;
 }
 
@@ -211,7 +194,7 @@ body {
   color: #2e2f42;
 }
 
-.section-3 ul li p {
+.profession-hero {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -226,35 +209,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-
-.human-1 {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
-.human-2 {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
-.human-3 {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
-.human-4s {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
+  text-transform: capitalize;
 }
 
 /* !section-4 */
