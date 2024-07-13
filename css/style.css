@@ -79,7 +79,7 @@ body {
   list-style-type: none;
 }
 
-.mail {
+.contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -88,7 +88,7 @@ body {
   text-decoration: none;
 }
 
-.mail:hover {
+.contacts:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -96,27 +96,7 @@ body {
   color: #404bbf;
 }
 
-.mail:focus {
-  color: #404bbf;
-}
-.number {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-
-.number:hover {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #404bbf;
-}
-
-.number:focus {
+.contacts:focus {
   color: #404bbf;
 }
 /* *main */
@@ -225,6 +205,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .section-4 ul {
